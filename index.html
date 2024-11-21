@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--FOMOzone-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FOMOzone</title>
+
+    <!--swiper css-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <!--font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <!--css file-->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- AlpineJS-->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+    <!-- App -->
+     <script src="src/apps.js"></script>
+  </head>
+  <body>
+    <!-- header section starts  -->
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="images/logo.png"  style="max-inline-size: 90px; block-size: auto;" />
+      </a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#service">service</a>
+        <a href="#about">about</a>
+        <a href="#gallery">gallery</a>
+        <a href="#price">price</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+        <a href="formbyr.html">order</a>
+      </nav>
+
+      <div id="menu-bars" class="fas fa-bars"></div>
+    </header>
+
+    <!-- home section starts  -->
+    <section class="home" id="home">
+      <div class="content">
+        <h3>
+          enjoy your moment!
+          <span> fomozone events </span>
+        </h3>
+        <a href="#" class="btn">get quote</a>
+      </div>
+
+      <div class="swiper-container home-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/home1.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/home2.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/home3.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/home4.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/home5.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/home6.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/home7.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- service section starts  -->
+    <section class="service" id="service">
+      <h1 class="heading">our <span>services</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-envelope"></i>
+          <h3>festival food</h3>
+          <p>
+            Sebuah acara kuliner yang menampilkan berbagai jenis makanan, 
+            mulai dari hidangan lokal hingga internasional, di mana pengunjung
+            dapat mencicipi berbagai rasa dalam suasana yang meriah.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-photo-video"></i>
+          <h3>pameran seni</h3>
+          <p>
+            Ajang pameran karya seni seperti lukisan, patung, dan instalasi 
+            dari seniman lokal dan internasional, memberikan ruang bagi pengunjung 
+            untuk menikmati, mengapresiasi, dan membeli karya seni.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-music"></i>
+          <h3>music concert</h3>
+          <p>
+            Pertunjukan musik yang menampilkan artis atau band favorit di 
+            panggung besar, dengan tata cahaya dan suara spektakuler, menciptakan 
+            suasana yang memukau dan penuh energi.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-car"></i>
+          <h3>halloween party</h3>
+          <p>
+            Pesta bertema Halloween di mana peserta mengenakan kostum seram atau unik, 
+            disertai dekorasi yang menyeramkan, permainan, dan hiburan bertema horor.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3>color run</h3>
+          <p>
+            Lomba lari yang penuh keseruan di mana peserta dilempari bubuk warna sepanjang
+            rute, menciptakan pengalaman yang meriah dan berwarna.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-birthday-cake"></i>
+          <h3>taylor swift karaoke</h3>
+          <p>
+            Acara karaoke yang didedikasikan untuk para penggemar Taylor Swift, di mana mereka 
+            bisa bernyanyi bersama hits-hits populer dari sang superstar.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3>fashion show</h3>
+          <p>
+            Pertunjukan mode yang menampilkan koleksi terbaru dari desainer atau brand, di mana 
+            para model berjalan di atas catwalk menunjukkan tren terbaru dan gaya busana yang inovatif.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section starts  -->
+    <section class="about" id="about">
+      <h1 class="heading"><span>about</span> us</h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="images/about.jpg" alt="" />
+        </div>
+
+        <div class="content">
+          <h3>your occasion deserves our careful planning</h3>
+          <p>
+            FOMOzone lahir dari fenomena FOMO (Fear of Missing Out), yaitu rasa takut
+            ketinggalan momen seru yang dialami oleh banyak orang, terutama Gen Z. Platform ini dirancang 
+            untuk menjadi tempat di mana pengguna bisa mengatasi FOMO mereka dengan menemukan event-event 
+            terkini dan trending di sekitar yang diadakan di wilayah tertentu, seperti konser musik, 
+            festival budaya, pameran seni, food cornert, event lari dan kegiatan komunitas lainnya
+          <p>
+            FOMOzone menciptakan ruang yang membebaskan pengguna dari rasa "ketinggalan." 
+            Setiap pengguna dapat merasa terhubung dengan berbagai aktivitas yang sedang happening, 
+            dari konser, festival, sampai pameran makanan lokal. FOMOzone memiliki slogan: “Stay in the Zone, Never Miss Out”.
+          </p>
+          <a href="#" class="btn">reach us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- gallery section starts  -->
+    <section class="gallery" id="gallery">
+      <h1 class="heading">our <span>gallery</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/gallery1.jpg" alt="" />
+          <h3 class="title">best events</h3>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/gallery2.jpeg" alt="" />
+          <h3 class="title">best events</h3>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/gallery3.png" alt="" />
+          <h3 class="title">best events</h3>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/gallery4.jpg" alt="" />
+          <h3 class="title">best events</h3>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/gallery5.jpg" alt="" />
+          <h3 class="title">best events</h3>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/gallery6.jpeg" alt="" />
+          <h3 class="title">best events</h3>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/gallery7.jpg" alt="" />
+          <h3 class="title">best events</h3>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- price section starts  -->
+    <section class="price" id="price">
+      <h1 class="heading">our<span>pricing</span></h1>
+
+      <div class="box-container">
+
+        <div class="box">
+          <h3 class="title">Music Concert</h3>
+          <h3 class="amount">Rp.145.000</h3>
+          <img src="images/karaoke.jpeg" alt="Product 1">
+          <a href="formbyr.html" class="btn">check out</a>
+        </div>
+
+        <div class="box">
+          <h3 class="title">Color Run</h3>
+          <h3 class="amount">Rp.75.000</h3>
+          <img src="images/colorrun.jpeg" alt="Product 1">
+          <a href="formbyr.html" class="btn">check out</a>
+        </div>
+
+        <div class="box">
+          <h3 class="title">Taylor Swift Karaoke</h3>
+          <h3 class="amount">Rp.850.000</h3>
+          <img src="images/gallery6.jpeg" alt="Product 1">
+          <a href="formbyr.html" class="btn">check out</a>
+        </div>
+
+        <div class="box">
+          <h3 class="title">Fashion Show</h3>
+          <h3 class="amount">Rp.375.000</h3>
+          <img src="images/fashionss.jpg" alt="Product 1">
+          <a href="formbyr.html" class="btn">check out</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section starts  -->
+    <section class="reivew" id="review">
+      <h1 class="heading">client's <span>review</span></h1>
+
+      <div class="review-slider swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/img1.jpeg" alt="" />
+              <div class="user-info">
+                <h3>silvia</h3>
+                <span>Pameran Seni Keren!</span>
+              </div>
+            </div>
+            <p>
+              Fashion show yang sangat elegan dan 
+              memukau! Koleksi busana yang ditampilkan 
+              sangat kreatif dan menonjolkan sisi artistik 
+              yang luar biasa. Peragaan busana di atas catwalk terasa begitu berkelas, dan suasana yang dibangun benar-benar sesuai dengan tema acara.
+            </p>
+          </div>
+
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/img2.jpg" alt="" />
+              <div class="user-info">
+                <h3>adelia</h3>
+                <span>Halloween Party Merinding!</span>
+              </div>
+            </div>
+            <p>
+              Halloween party yang sangat seru dan kreatif!
+              Dekorasinya menghidupkan suasana horor yang 
+              menyenangkan, dengan kostum-kostum keren dari 
+              pengunjung yang membuat acara ini semakin seru. 
+              Banyak kegiatan interaktif yang membuat malam 
+              Halloween ini tak terlupakan.
+            </p>
+          </div>
+
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/img3.jpeg" alt="" />
+              <div class="user-info">
+                <h3>marsel</h3>
+                <span>Color Run Seru Abiss!</span>
+              </div>
+            </div>
+            <p>
+              Color Run yang penuh warna dan semangat!
+              Ini bukan hanya sekadar lomba lari, tapi 
+              juga pengalaman yang menghibur. Keseruan 
+              saat dilempari warna-warni di sepanjang 
+              jalur lari membuat semua peserta senang. 
+              Acara ini benar-benar cocok untuk semua usia!
+            </p>
+          </div>
+
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/img4.jpeg" alt="" />
+              <div class="user-info">
+                <h3>ridhan</h3>
+                <span>eventnya keren keren</span>
+              </div>
+            </div>
+            <p>
+              Event yang sangat disarankan untuk diikuti. 
+              Dengan berbagai kegiatan seru dan suasana 
+              yang menyenangkan, sangat sayang untuk dilewatkan.
+              Suasana acara ini sangat menarik, menyatu dengan 
+              kegembiraan dan keajaiban yang terus terasa sepanjang waktu.
+            </p>
+          </div>
+
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/img5.jpeg" alt="" />
+              <div class="user-info">
+                <h3>anggi</h3>
+                <span>festival makanan yang higenis</span>
+              </div>
+            </div>
+            <p>
+              Festival kuliner ini luar biasa! Banyak pilihan
+              makanan dari berbagai daerah, dengan rasa yang
+              otentik dan berkualitas. Suasananya meriah dengan 
+              dekorasi yang Instagrammable, membuat pengunjung 
+              betah berlama-lama. Cocok sekali untuk para pecinta 
+              kuliner!"
+            </p>
+          </div>
+
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/img6.jpeg" alt="" />
+              <div class="user-info">
+                <h3>lyra</h3>
+                <span>Karaoke Swifties Asikkk</span>
+              </div>
+            </div>
+            <p>
+              Malam karaoke Taylor Swift ini luar biasa menyenangkan 
+              bagi para Swifties! Suasana akrab dan penuh semangat, 
+              setiap orang bernyanyi bersama dan menikmati lagu-lagu 
+              hits favorit. Benar-benar pengalaman yang mengesankan 
+              untuk merayakan musik Taylor Swift!
+            </p>
+          </div>
+
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/img7.jpg" alt="" />
+              <div class="user-info">
+                <h3>ulfa</h3>
+                <span>Wajib Nonton Konsernya Sihhh</span>
+              </div>
+            </div>
+            <p>
+              Konser ini sangat menghibur dan penuh energi! Penampilan
+               para musisi begitu berkesan, dengan sound system yang 
+               mantap dan tata panggung yang spektakuler. Suasana yang 
+               tercipta membuat kita merasa benar-benar tenggelam dalam musik.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section starts  -->
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>contact</span> us</h1>
+
+      <form action="">
+        <div class="inputBox">
+          <input type="text" placeholder="name" />
+          <input type="email" placeholder="email" />
+        </div>
+        <div class="inputBox">
+          <input type="tel" placeholder="number" />
+          <input type="text" placeholder="subject" />
+        </div>
+        <textarea
+          name=""
+          placeholder="message"
+          id=""
+          cols="30"
+          rows="10"
+        ></textarea>
+        <input type="submit" value="send message" class="btn" />
+      </form>
+    </section>
+
+    <!-- footer section starts  -->
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> service </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> about </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> gallery </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> price </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> reivew </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> contact </a>
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="#"> <i class="fas fa-phone"></i> +62-822-8756-7690 </a>
+          <a href="#"> <i class="fas fa-envelope"></i> fomozone@gmail.com </a>
+          <a href="#">
+            <i class="fas fa-map-marker-alt"></i> sumsel, indonesia - 30155
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>follow us</h3>
+          <a href="https://wa.me/+6282287567690?text=Hallo%20Elza,%20saya%20tertarik%20dengan%20Event%20anda."> <i class="fab fa-whatsapp"></i> whatsapp </a>
+          <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+          <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+          <a href="#"> <i class="fab fa-tiktok"></i> tiKTok </a>
+        </div>
+      </div>
+
+      <div class="credit">
+        created by <span>FOMOcrew</span> | all rights reserved
+      </div>
+    </section>
+
+    <!-- theme toggler  -->
+    <div class="theme-toggler">
+      <div class="toggle-btn">
+        <i class="fas fa-cog"></i>
+      </div>
+
+      <h3>choose color</h3>
+
+      <div class="buttons">
+        <div class="theme-btn" style="background: #ccff33"></div>
+        <div class="theme-btn" style="background: #d35400"></div>
+        <div class="theme-btn" style="background: #f39c12"></div>
+        <div class="theme-btn" style="background: #1abc9c"></div>
+        <div class="theme-btn" style="background: #3498db"></div>
+        <div class="theme-btn" style="background: #9b59b6"></div>
+      </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!--JS file-->
+    <script src="app.js"></script>
+  </body>
+</html>
